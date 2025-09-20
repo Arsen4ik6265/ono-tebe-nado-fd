@@ -1,11 +1,3 @@
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
 
 .header {
   display: grid;
@@ -198,7 +190,8 @@
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
 }
-.lots__look-more-link{
+
+.lots__look-more-link {
     margin-left: 40px;
     margin-top: 30px;
     font-size: 20px;
@@ -213,13 +206,6 @@
  grid-template-columns: 287px 693px;
  gap: 72px;
 }
-
-/* .about__column {
-  display: flex;
-  flex-direction: row;
-  gap: 72px;
-  align-items: center;
-} */
 
 
 .about__logo {

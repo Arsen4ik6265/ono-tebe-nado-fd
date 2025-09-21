@@ -258,29 +258,10 @@
 }
 
 .footer__menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  align-content: normal;
-  flex-wrap: wrap;
-  margin-top: 5px;
-  margin-right: 25px;
   text-underline-offset: 4px;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.footer__menu-list-item {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
   text-align: center;
   list-style: none;
-  text-decoration: none;
 }
 
 .footer__menu-link_active {
@@ -289,11 +270,8 @@
 
 .footer__social-list {
   display: flex;
-  flex-direction: row;
-  list-style-type: none;
+  list-style: none;
   gap: 48px;
-  width: 240px;
-  height: 48px;
 }
 
 .footer__social-icon {
